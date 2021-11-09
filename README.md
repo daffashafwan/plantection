@@ -32,7 +32,7 @@ watch the results in the right.
 
 ## Tech
 
-Dillinger uses a number of open source projects to work properly:
+Plantection uses a number of open source projects to work properly:
 
 - [AngularJS] - HTML enhanced for web apps!
 - [Ace Editor] - awesome web-based text editor
@@ -45,17 +45,17 @@ Dillinger uses a number of open source projects to work properly:
 to Markdown converter
 - [jQuery] - duh
 
-And of course Dillinger itself is open source with a [public repository][dill]
+And of course Plantection itself is open source with a [public repository][dill]
  on GitHub.
 
 ## Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
+Plantection requires [Node.js](https://nodejs.org/) v10+ to run.
 
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-cd dillinger
+cd Plantection
 npm i
 node app
 ```
@@ -69,7 +69,7 @@ NODE_ENV=production node app
 
 ## Plugins
 
-Dillinger is currently extended with the following plugins.
+Plantection is currently extended with the following plugins.
 Instructions on how to use them in your own application are linked below.
 
 | Plugin | README |
@@ -85,7 +85,7 @@ Instructions on how to use them in your own application are linked below.
 
 Want to contribute? Great!
 
-Dillinger uses Gulp + Webpack for fast developing.
+Plantection uses Gulp + Webpack for fast developing.
 Make a change in your file and instantaneously see your updates!
 
 Open your favorite Terminal and run these commands.

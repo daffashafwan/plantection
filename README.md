@@ -3,7 +3,8 @@
 
 [![N|Solid](https://www.gstatic.com/devrel-devsite/prod/vff7e8445fa7d53cc21534f5556b6a4ee6bfada97ce5d2ad049b51bab5c641518/tensorflow/images/lockup.svg)](https://www.tensorflow.org/)
 
-
+Mengunduh Repository
+git clone
 Plantection is flask-based, lightweight and easy to use plant classification based on leaves.
 
 ## Features

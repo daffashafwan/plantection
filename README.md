@@ -31,6 +31,57 @@ This text you see here is *actually- written in Markdown! To get a feel
 for Markdown's syntax, type some text into the left window and
 watch the results in the right.
 
+Proses program penelitian
+
+- Mengunduh repository ke dalam komputer
+- Memperbarui repository yang telah di unduh
+- Mengunggah perubahan ke dalam repository
+- Menghapus file
+- Branching
+- Perintah tambahan
+
+## Mengunduh repository
+
+```sh
+git clone <url repository> <folder tujuan>
+```
+
+## Memperbarui repository yang telah di unduh
+
+```sh
+git pull origin <nama branch>
+```
+
+## Mengunggah perubahan
+
+```sh
+git add <nama file>
+```
+
+Tambahkan beberapa file baru atau ubah beberapa file
+
+```sh
+git add .
+```
+
+Konfirmasi penambahan atau perubahan file
+
+```sh
+git commit -m "<pesan commit>"
+```
+Ubah dan konfirmasi modifikasi beberapa file sekaligus
+
+```sh
+git commit -a -m "<pesan commit>"
+```
+
+Kirim perubahan ke dalam repository
+
+```sh
+git push origin <nama branch>
+```
+
+
 ## Tech
 
 Plantection uses a number of open source projects to work properly:
